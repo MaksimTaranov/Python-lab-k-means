@@ -1,8 +1,8 @@
 """Test K-means distance calculations, training, and prediction."""
 
+from lab_01.elbow import find_elbow
 from lab_01.generator_data import generate_data
 from lab_01.model import KMeans, squared_distance
-from lab_01.elbow import find_elbow
 
 
 def test_squared_distance() -> None:
